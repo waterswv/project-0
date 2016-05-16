@@ -64,6 +64,9 @@ A card game in which all of the cards are laid face down on a surface and two ca
 ##### Battleship
 User can challenge the computer, each takes a turn trying to sink the other ships. The player who sinks the other player's ships first wins!
 
+##### Flash Cards
+Make some flash cards to drill yourself on Web Development concepts (or whatever you want)! You should have a "deck" of flash cards that you can shuffle (or are randomized them in some way). The user should be able to click one of two buttons, depending if they feel they remember this answer well enough (removing it from the deck) or if they need to keep reviewing it (putting it on the bottom of the stack). A user could keep going until they have "remembered" all cards in the deck and see a win screen. 
+
 ##### Something Else!
 Make sure you get the approval of your [squad](http://bit.ly/1nZsVo9)'s instructor if you choose anything else.
 
