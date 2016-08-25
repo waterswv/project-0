@@ -4,20 +4,6 @@
 
 **Read this entire document before writing a line of code.**
 
-### Contents
-
-* **[Overview](#overview)**
-* **[Essential Skills](#essential-skills)**
-* **[Timeline](#timeline)**
-* **[Technical Requirements](#technical-requirements)**
-* **[Deliverables](#deliverables)**
-* **[Getting Started](#getting-started)**
-* **[Game Suggestions](#game-suggestions)**
-* **[Extra Challenge Ideas](#extra-challenge-ideas)**
-* **[Resources](#resources)**
-* **[Project Feedback](#project-feedback)**
-
-
 ### Overview
 
 Let's start out with something fun - **a game!**
