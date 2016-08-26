@@ -42,13 +42,13 @@ By the time you submit this project, you will have leveled up in many big themes
 Your app must:
 
 * **Render a game in the browser**
-* **Design logic for winning** & **visually display which player won**
+* **Include logic for winning** & **visually display which player won**
 * **Include separate HTML, CSS, and JavaScript files**
 * Stick with **KISS (Keep It Super Simple)** and **DRY (Don't Repeat Yourself)** principles
 * Use **native Javascript or jQuery** for **DOM manipulation**
 * Be **deployed publicly online**, where the rest of the world can access it (there will be a quick tutorial on this)
 * Use **semantic markup** for HTML and CSS (adhere to best practices)
-* Include **custom styling** to convey the state of the game visually and differentiate your project from any CSS libraries used
+* Include **custom styling** to convey the state of the game visually (and differentiate your project from any CSS libraries used)
 * Demonstrate attention to code quality with **"clean" (well-indented, appropriately commented, organized) code**
 
 ---
