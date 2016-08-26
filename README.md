@@ -159,8 +159,8 @@ These are some ideas that could take your game "above and beyond." **Don't focus
     Score | Expectations
     ----- | ------------
     **0** | _Incomplete (not attempted)._
-    **1** | _Does not meet expectations._
+    **1** | _Does not meet expectations. Work on this._
     **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
+    **3** | _Exceeds expectations, wow!_
 
  You will receive a total score that is a composite of these scores. This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones for each category__ above, which can help you identify where to focus your efforts for the next project!
