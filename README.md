@@ -58,7 +58,7 @@ Your app must:
 
 * A **working game, built by you**, hosted somewhere on the internet.
 * A **git repository hosted on Github**, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
-* **A `readme.md` file** with a short description of the project, list which technologies you used for which parts of the app, an explanation of your approach, installation instructions, unsolved problems, etc. Screenshots are a plus.
+* **A `readme.md` file** with a short description of the project, a list of which technologies you used for which parts of the app, an explanation of your approach (share some part of the code), and optionally a list of unsolved problems,  screenshots, etc.  See the [example readme](https://github.com/sf-wdi-31/readme-example).
 * A **link to your hosted working game** in the URL section of your game's Github repo.
 * A **link to your hosted working game** on your personal website.
 
