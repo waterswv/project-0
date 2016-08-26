@@ -89,7 +89,7 @@ Your app must:
 
 If you're comfortable with the technologies we're using and you have a fully-fledged plan, you can build a substantially different game. Definitely only build a game that you are familiar with. Make sure you get your plan approved by an instructor if you want to build a non-racing game.
 
-<details><summary>Click this paragraph to see other potentail game ideas.</summary>
+<details><summary>Click this paragraph to see other potential game ideas.</summary>
 
 ##### Trivia
 Test your wits & knowledge with whatever-the-heck you care about. The player can guess answers and have the computer validate them!
