@@ -118,6 +118,13 @@ The player can challenge the computer, each taking turns trying to sink the othe
 
 ---
 
+### Sample projects
+
+[Chiggen Chase, a racing game](https://serabakpak.github.io/chiggen-chase/)
+[Labyrinth game](https://14budig.github.io/labyrinth-game/)
+[Bubble pop game](https://samdarbonne.github.io/sams-racing-game/)
+
+
 ### Extra Challenge Ideas
 
 These are some ideas that could take your game "above and beyond." **Don't focus on them until you've hit the core requirements.**
