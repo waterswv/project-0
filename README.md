@@ -120,9 +120,9 @@ The player can challenge the computer, each taking turns trying to sink the othe
 
 ### Sample projects
 
-* [Chiggen Chase, a racing game](https://serabakpak.github.io/chiggen-chase/)
-* [Labyrinth game](https://14budig.github.io/labyrinth-game/)
-* [Bubble pop game](https://samdarbonne.github.io/sams-racing-game/)
+* [Chiggen Chase](https://serabakpak.github.io/chiggen-chase/) - a racing game
+* [Labyrinth game](https://14budig.github.io/labyrinth-game/) - find the yellow coin and get to the orange exit while avoiding the red Minotaur.
+* [Bubble pop game](https://samdarbonne.github.io/sams-racing-game/) - pop the bubbles and try to beat the records.
 
 
 ### Extra Challenge Ideas
