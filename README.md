@@ -78,7 +78,7 @@ Your app must:
 
 ### Game Types
 
-####Racing Game
+#### Racing Game
 
 **We suggest and expect that most of you will build a racing game**. Two or more players should be able to use the keyboard to move their "cars" across the browser window.
 
