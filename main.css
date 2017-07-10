@@ -1,3 +1,21 @@
 body {
   border: 1px dashed navy;
 }
+
+div {
+  border: 1px dashed red;
+}
+
+p{
+  text-align: center;
+}
+
+#move-1A {
+  text-align: right;
+  border: 2px dashed yellow;
+}
+
+.race-space {
+  height: 100px;
+  border: 1px dashed green;
+}
