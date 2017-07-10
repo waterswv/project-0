@@ -19,8 +19,8 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 ### Timeline
 
-* **Assigned:** ADD START DATE HERE
-* **Due:** ADD DUE DATE HERE at 9:00AM
+* **Assigned:** Monday, July 10th
+* **Due:** Wednesday, July 12th at 9:00AM
 
 
 ---
