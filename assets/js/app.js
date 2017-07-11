@@ -14,11 +14,12 @@ $(document).ready(function() {
     $('#move-1B').replaceWith(`<img id="move-1B" alt="scalene" width="80" height="68" src=${playerB}>`); // add the triangle to the board
     $('#move-1A').replaceWith(`<img id="move-1A" alt="isosceles" width="68" height="80" src=${playerA}>`); // add the other triangle to the board
   })
-
+    
   $(document).keydown(function(e) {
 
     if (e.which == 80 && (p2B < 13) && (hasWon === false)) { // 80 is the lowercase 'p' key
       $(`#move-${p2B-1}B`).replaceWith(`<img src="">`)
+      console.log("is it animated?");
       $(`#move-${p2B}B`).replaceWith(`<img id="move-${p2B}B" alt="scalene" width="68" height="80" src=${playerB}>`); // move triangle to the next space
       if (p2B < 12 && (hasWon === false)) {
         p2B += 1;
@@ -44,7 +45,9 @@ $(document).ready(function() {
     }
   });
 
-
+  // on clicking a button named taco generate animation on the div taco2 below
+  // $( "taco" ).click(function(){
+  //   $( ".taco2" ).animate({ "left": "=81px" }, "slow" );
 
 
 

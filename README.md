@@ -4,6 +4,15 @@
 
 **Read this entire document before writing a line of code.**
 
+## Assignment Execution
+
+**Written by Bryan**
+
+My Project is a Game of Degrees. I decided to build a racing game between 2 human users that pit geometric shapes against
+one another. Specifically a scalene and isosceles triangle. You can read a little about the battle in the About Battle drop down. In order to play, choose start game to place the game pieces. Then player 1 will use the lower case q & player 2 will use lower case p to advance across the screen as quickly as possible. The first player to march to the right side will be declared teh winner.
+
+To view the game please navigate to (https://waterswv.github.io/project-0/ "A Battle of Degrees")
+
 ### Overview
 
 Let's start out with something fun - **a game!**
