@@ -7,11 +7,19 @@ $(document).ready(function() {
   var playerA = "images/isosceles-triangle.png";
   var playerB = "images/scalene-triangle.png";
 
-$('button').on("click", function(){
-  //  movePlayer();
-    $('#move-1A').replaceWith(`<img alt="isosceles" width="68" height="80" src=${playerA}>`);
-    $('#move-1B').replaceWith(`<img alt="scalene" width="80" height="68" src=${playerB}>`);
-})
+
+$(document).keydown(function(e) {
+
+    if(e.which == 80) { // 80 is the lowercase 'p' key
+        $('#move-1B').replaceWith(`<img alt="scalene" width="80" height="68" src=${playerB}>`); // add the triangle to the board
+    }
+    else if(e.which == 81) { // 81 is the lowercase 'q' key
+      $('#move-1A').replaceWith(`<img alt="isosceles" width="68" height="80" src=${playerA}>`); // add the other triangle to the board
+    }
+});
+
+
+
 
 
 
