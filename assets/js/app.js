@@ -4,8 +4,8 @@ $(document).ready(function() {
   // goes inside this function
   console.log("Sanity Check: DOM is Ready!");
 
-  var playerA = "images/isosceles-triangle.png";
-  var playerB = "images/scalene-triangle.png";
+  var playerA = "assets/images/isosceles-triangle.png";
+  var playerB = "assets/images/scalene-triangle.png";
   var p1A = 2;
   var p2B = 2;
   var hasWon = false;
