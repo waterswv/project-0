@@ -10,7 +10,7 @@ $(document).ready(function() {
   var p2B = 2;
   var hasWon = false;
 
-  $('button').on('click', function() {
+  $('#start').on('click', function() {
     $('#move-1B').replaceWith(`<img id="move-1B" alt="scalene" width="80" height="68" src=${playerB}>`); // add the triangle to the board
     $('#move-1A').replaceWith(`<img id="move-1A" alt="isosceles" width="68" height="80" src=${playerA}>`); // add the other triangle to the board
   })

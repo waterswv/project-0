@@ -7,13 +7,18 @@
   <!-- set viewport to device width to allow responsiveness -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- jQuery from GOOGLE CDN ... leveraged from Google Search for jQuery import -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <!-- Bootstrap CSS from CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+  <!-- Latest compiled and minified JavaScript from bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   <!-- link to custom stylesheet (always require after Bootstrap) ... Modified CSS link file -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
-  <!-- jQuery from GOOGLE CDN ... leveraged from Google Search for jQuery import -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
   <!-- link to custom javascript file (always require after external JS libraries) ... added JS file path-->
   <script type="text/javascript" src="assets/js/app.js"></script>
@@ -21,22 +26,33 @@
   <title>A Battle of Degrees</title>
 </head>
 <header>
-  <nav>
-      <a type="text" href="#" name="Home" >Home</a>
-      <a type="text" href="#" name="About" >About</a>
-      <br></br>
-      <button type="button" name="Start-Game" >Start Game</button>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <button class="btn btn-primary" role="button">Home</button>
+      <button class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          The Battle
+      </button>
+      <button id="start" class="btn btn-primary" role="button">Start Game</button>
+      <button id="play-again" class="btn btn-primary" role="button">Play Again</button>
+
+    <div class="collapse" id="collapseExample">
+      <div class="well">
+          There is an argument to be settled over hatch marks; who will prevail: One, Two, or Three? Let's find out with a battle of degrees!
+      </div>
+    </div>
+    </div>
   </nav>
   <title>Welcome to the Race</title>
-  <h1>Isoceles vs Scalene</h1>
 </header>
 
 <!-- This is for spacing the tracks apart from each other -->
+
 <body>
+  <h1>Isoceles vs Scalene</h1>
   <div class="race-space">
   </div>
 
-<!-- This is the first track for Player 1 using bootstrap, split into 12 1 column quadrants -->
+  <!-- This is the first track for Player 1 using bootstrap, split into 12 1 column quadrants -->
   <div class="row">
     <div class="col-md-1">
       <p id="move-1A"></p>
@@ -76,13 +92,13 @@
     </div>
   </div>
 
-<!-- This is for spacing the tracks apart from each other -->
+  <!-- This is for spacing the tracks apart from each other -->
   <div class="race-space">
   </div>
   <div class="race-space">
   </div>
 
-<!-- This is the second track for Player 2 using bootstrap, split into 12 1 column quadrants -->
+  <!-- This is the second track for Player 2 using bootstrap, split into 12 1 column quadrants -->
   <div class="row">
     <div class="col-md-1">
       <p id="move-1B"></p>

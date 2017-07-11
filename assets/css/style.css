@@ -1,10 +1,13 @@
 body {
   /*border: 1px dashed navy;*/
+  padding-top: 70px;
   background-image: url("../images/dark-triangles/dark-triangles.png");
   background-size: auto;
   /*Background image downloaded from www.subtlepatterns.com you can find more there! */
 }
+button {
 
+}
 h1 {
   color: white;
   text-align: center;
@@ -12,6 +15,8 @@ h1 {
 
 div {
   /*border: 1px dashed red;*/
+  text-align: center;
+
 }
 
 p{
