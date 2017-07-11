@@ -1,7 +1,8 @@
 body {
   /*border: 1px dashed navy;*/
   background-image: url("images/dark-triangles/dark-triangles.png");
-  background-size: auto; 
+  background-size: auto;
+  /*Background image downloaded from www.subtlepatterns.com you can find more there! */
 }
 
 h1 {
