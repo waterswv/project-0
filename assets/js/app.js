@@ -13,7 +13,7 @@ $(document).ready(function() {
   var hasWon = false;
 
   // jQuery implimentation to rotate images
-  $("#finishLine").rotate(90);
+  // $("#finishLine").rotate(90);
 
   // Start button logic to being the game and place player pieces on board
   $('#start').on('click', function() {
