@@ -9,6 +9,8 @@
 
   <!-- jQuery from GOOGLE CDN ... leveraged from Google Search for jQuery import -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery roate cdn to enable rotating images-->
+  <script type="text/javascript" src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script>
 
   <!-- Bootstrap CSS from CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -23,6 +25,9 @@
   <!-- link to custom javascript file (always require after external JS libraries) ... added JS file path-->
   <script type="text/javascript" src="assets/js/app.js"></script>
 
+  <!-- importing different google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
   <title>A Battle of Degrees</title>
 </head>
 <header>
@@ -35,11 +40,11 @@
       <button id="start" class="btn btn-primary" role="button">Start Game</button>
       <button id="play-again" class="btn btn-primary" role="button">Play Again</button>
 
-    <div class="collapse" id="collapseExample">
-      <div class="well">
+      <div class="collapse" id="collapseExample">
+        <div class="well">
           There is an argument to be settled amongst hatch marks; who will prevail: One, Two, or Three? Let's find out with a battle of degrees!
+        </div>
       </div>
-    </div>
     </div>
   </nav>
   <title>Welcome to the Race</title>
@@ -48,12 +53,20 @@
 <!-- This is for spacing the tracks apart from each other -->
 
 <body>
+  <div class="table-responsive">
+    <table class="table">
+      <div class="row">
+        <div id="tinyQ" class="col-md-6">Isoceles moves with tiny q</div>
+        <div id="tinyP" class="col-md-6">Scalene moves with little p</div>
+      </div>
+    </table>
+  </div>
   <h1>Isoceles vs Scalene</h1>
-  <div class="race-space">
+  <div class="race-space-2">
   </div>
 
   <!-- This is the first track for Player 1 using bootstrap, split into 12 1 column quadrants -->
-  <div class="row">
+  <div id="raceTrack" class="row">
     <div class="col-md-1">
       <p id="move-1A"></p>
     </div>
@@ -88,18 +101,20 @@
       <p id="move-11A"></p>
     </div>
     <div class="col-md-1">
-      <p id="move-12A">Finish</p>
+      <p id="move-12A"></p>
     </div>
   </div>
 
   <!-- This is for spacing the tracks apart from each other -->
-  <div class="race-space">
-  </div>
-  <div class="race-space">
+  <div id="raceTrack2" class="row">
+    <div class="col-md-12">
+      <img id="finishLine" src="assets/images/finish-line.png" height="150" alt="Finish Line">
+    </div>
   </div>
 
+
   <!-- This is the second track for Player 2 using bootstrap, split into 12 1 column quadrants -->
-  <div class="row">
+  <div id="raceTrack" class="row">
     <div class="col-md-1">
       <p id="move-1B"></p>
     </div>
@@ -134,7 +149,9 @@
       <p id="move-11B"></p>
     </div>
     <div class="col-md-1">
-      <p id="move-12B">Finish</p>
+      <p id="move-12B">
+
+      </p>
     </div>
   </div>
 

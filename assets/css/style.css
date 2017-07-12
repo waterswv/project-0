@@ -1,25 +1,39 @@
+* {
+  /*border: 1px dashed red;*/
+}
+
 body {
-  /*border: 1px dashed navy;*/
   padding-top: 70px;
   background-image: url("../images/dark-triangles/dark-triangles.png");
   background-size: auto;
+  color: white;
+  font-family: 'Indie Flower', cursive;
   /*Background image downloaded from www.subtlepatterns.com you can find more there! */
 }
-button {
 
+nav {
+  font-size: 45px;
 }
+
+.well {
+  color: black;
+  font-size: 18px;
+}
+
 h1 {
   color: white;
   text-align: center;
 }
 
-div {
-  /*border: 1px dashed red;*/
-  text-align: center;
-
+#tinyQ, #tinyP {
+  font-size: 18px;
 }
 
-p{
+div {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
 
@@ -28,7 +42,24 @@ p{
   /*border: 2px dashed yellow;*/
 }
 
+.race-space-2 {
+  height: 25px;
+  /*border: 1px dashed green;*/
+}
+
 .race-space {
   height: 100px;
   /*border: 1px dashed green;*/
+}
+
+#raceTrack {
+  height: 160px;
+}
+
+#raceTrack2 {
+  height: 160px;
+}
+
+#finishLine {
+  float: right;
 }
